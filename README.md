@@ -26,7 +26,7 @@ The patch scripts check for and automatically install these dependencies in Term
 1. **Clone and enter the repository:**
    ```bash
    git clone https://github.com/krecod/agy-termux-lse
-   cd cli
+   cd agy-termux-lse
    ```
 2. **Make the patch script executable:**
    ```bash
@@ -38,7 +38,7 @@ The patch scripts check for and automatically install these dependencies in Term
    ```
 **OR**
 ```bash
-git clone https://github.com/krecod/agy-termux-lse && cd cli && chmod +x patch.sh && /patch.sh
+git clone https://github.com/krecod/agy-termux-lse && cd agy-termux-lse && chmod +x patch.sh && /patch.sh
    ```
 
 ### Monolithic One-Shot Install
@@ -57,7 +57,7 @@ If you prefer to compile and run `agy` directly inside your PRoot distribution (
 2. **Clone and enter the repository inside the container:**
    ```bash
    git clone https://github.com/krecod/agy-termux-lse
-   cd cli
+   cd agy-termux-lse
    ```
 3. **Make the script executable and run the installation:**
    ```bash
